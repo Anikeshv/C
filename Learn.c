@@ -12,7 +12,9 @@ int main(){
 // \" used to  Inserts a double quote character
 // \\ used to Inserts a backslash character (\)
 
-#include <stdio.h>
+
+
+/*#include <stdio.h>
 int main(){
     printf("Hey boy \n");
     printf("Lisht weight!");
@@ -33,7 +35,37 @@ int main(){
     printf("I am learning C.");
 
 return 0;
-}
+}*/
+
+
+// Printed values in different datatypes
+/*#include <stdio.h>
+
+int main(){
+    int integer;
+    float flo;
+    char character;
+    flo=3.5;
+    integer=10;
+    character='a';
+
+    printf("%d \n",integer);
+    printf("%f \n",flo);
+    printf("%c \n",character);
+
+return 0;
+
+}*/
+
+
+
+
+
+
+
+
+
+
 
 
 
