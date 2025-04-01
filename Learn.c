@@ -67,6 +67,18 @@ int main() {
   return 0;
 }*/
 
+/*#include <stdio.h>
+int main(){
+    int a=5;
+    int c=6;
+    float b=7;
+    printf("Values are %d \n",a);
+    printf("Values are %f ",b);
+
+return 0;
+}*/
+
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
 // overwriting variable value
@@ -97,11 +109,21 @@ int main(){
 return 0;    
 }*/
 
+// -----------------------------------------------------------------------------------------------------------------------------------
 
+// Basic logic building codes
 
+// WAP to calculate area of a circle
+// #Solution
 
+/*#include <stdio.h>
+int main(){
+    float r;
+    r=7;
+    printf("Area of circle is %f \n",3.14*r*r);
 
-
+return 0;
+}*/
 
 
 
