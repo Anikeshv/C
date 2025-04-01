@@ -39,7 +39,6 @@ return 0;
 // -----------------------------------------------------------------------------------------------------------------------------------
 
 // Printed values in different datatypes
-
 /*#include <stdio.h>
 int main(){
     int integer;
@@ -55,8 +54,8 @@ int main(){
     printf("%c \n",character);
 
 return 0;
-
 }*/
+
 
 /*#include <stdio.h>
 int main() {
@@ -66,6 +65,7 @@ int main() {
 
   return 0;
 }*/
+
 
 /*#include <stdio.h>
 int main(){
