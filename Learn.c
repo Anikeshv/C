@@ -114,12 +114,21 @@ return 0;
 // Basic logic building codes
 
 // WAP to calculate area of a circle
-// #Solution
-
 /*#include <stdio.h>
 int main(){
     float r;
     r=7;
+    printf("Area of circle is %f \n",3.14*r*r);
+
+return 0;
+}*/
+
+// Using input(scanf)
+/*#include <stdio.h>
+int main(){
+    float r;
+    printf("Enter the radius:");
+    scanf("%f",&r);
     printf("Area of circle is %f \n",3.14*r*r);
 
 return 0;
