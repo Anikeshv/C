@@ -70,7 +70,6 @@ int main() {
 // -----------------------------------------------------------------------------------------------------------------------------------
 
 // overwriting variable value
-
 /*#include <stdio.h>
 int main(){
     int a;
@@ -83,6 +82,21 @@ int main(){
 
     return 0;
 }*/
+
+
+// Assigning values to multiple variables
+/*#include <stdio.h>
+int main(){
+    int a,b,c;
+    a=b=c=5;
+    printf("Sum %d \n",a+b+c);
+
+    a=b=c=7;
+    printf("Sum %d",a+b+c);
+
+return 0;    
+}*/
+
 
 
 
