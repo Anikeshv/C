@@ -1,3 +1,4 @@
+// My first c code
 /*#include <stdio.h>
 int main(){
     printf("Hey i am learning c");
@@ -68,6 +69,20 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// overwriting variable value
+
+/*#include <stdio.h>
+int main(){
+    int a;
+    int b;
+    a=5;
+    b=4;
+    a=b;
+    // Here value of a is overwrited to 4
+    printf("Value of a %d",a);
+
+    return 0;
+}*/
 
 
 
