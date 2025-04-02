@@ -163,5 +163,15 @@ return 0;
 }*/
 
 
-
+// WAP to take input in five different subjects and calculate Total,Average,Percentage.
+/*#include <stdio.h>
+int main(){
+    float m1,m2,m3,m4,m5 ;
+    printf("Enter the marks of all 5 subjects: \n");
+    scanf("%f %f %f %f %f",&m1,&m2,&m3,&m4,&m5);
+    printf("Average marks is: %f %s",(m1+m2+m3+m4+m5)/5,"\n");
+    printf("Total marks are: %f %s",(m1+m2+m3+m4+m5),"\n");
+    printf("Percentage is: %f",(m1+m2+m3+m4+m5)/5);
+return 0;
+}*/
 
