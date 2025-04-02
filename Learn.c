@@ -136,7 +136,6 @@ return 0;
 
 
 // WAP to calculate the simple interest/
-
 /*#include <stdio.h>
 int main(){
     float p;
@@ -152,6 +151,16 @@ int main(){
 return 0;
 }*/
 
+
+// WAP to calculate temperature in centigrate if user input temperature in Fahrenheit.
+/*#include <stdio.h>
+int main(){
+    float f;
+    printf("Enter temperature in fahrenheit:");
+    scanf("%f",&f);
+    printf("Temperature in degree centigrate is: %f",(5*f/9-17.77));
+return 0;
+}*/
 
 
 
