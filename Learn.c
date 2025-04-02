@@ -135,4 +135,24 @@ return 0;
 }*/
 
 
+// WAP to calculate the simple interest/
+
+/*#include <stdio.h>
+int main(){
+    float p;
+    float r;
+    float t;
+    printf("Enter the principal amount :");
+    scanf("%f",&p);
+    printf("Enter thr rate of interest :");
+    scanf("%f",&r);
+    printf("Enter the time period :");
+    scanf("%f",&t);
+    printf("Simple interset is:%f",(p*r*t)/100);
+return 0;
+}*/
+
+
+
+
 
