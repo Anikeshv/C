@@ -175,3 +175,17 @@ int main(){
 return 0;
 }*/
 
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+// Decimal precision
+/*#include <stdio.h>
+int main(){
+    float a=5.8594; //can take upto 4 bytes :8 decimal places
+    double b=5.9321; //can take upto 8 bytes :15 decimal values
+    printf("Float:%f\n",a);
+    printf("Double:%lf\n",b);
+
+    printf("Float:%.2f\n",a); //for printing specefic no after decimal
+    printf("Double:%.2lf",b); //if 0.01 used it will round off
+return 0;
+}*/
