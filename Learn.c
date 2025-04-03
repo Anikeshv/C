@@ -189,3 +189,27 @@ int main(){
     printf("Double:%.2lf",b); //if 0.01 used it will round off
 return 0;
 }*/
+
+// Size of datatypes
+/*#include <stdio.h>
+int main(){
+    int a;
+    float b;
+    char c;
+    double d;
+    printf("Size of integer %lu\n",sizeof(a));
+    printf("Size of float %lu\n",sizeof(b));
+    printf("Size of char %lu\n",sizeof(c));
+    printf("Size of double %lu",sizeof(d));
+return 0;
+}*/
+
+
+
+
+
+
+
+
+
+
