@@ -228,7 +228,24 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Implicit and explicit conversion
 
+/*#include <stdio.h>
+int main(){
+    float a=4;
+    printf("%f",a); //a=4.000000(Implicit conversion)
+return 0;
+}*/
+
+/*#include <stdio.h>
+int main(){
+    float a=5/2;
+    printf("%f\n",a); //a=2.000000 because 5 and 2 are still integers write a=(float)5/2
+
+    float b=(float)5/2;
+    printf("%f",b);
+return 0;
+}*/
 
 
 
