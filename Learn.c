@@ -369,7 +369,7 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Short hand if //
+// Short hand if else // also known as ternary operator
 
 /*#include <stdio.h>
 int main(){
