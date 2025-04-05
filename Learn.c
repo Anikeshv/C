@@ -280,6 +280,7 @@ return 0;
 
 // Operators //
 
+// ++a (increase value of a by 1) , --a (decrease value of a by 1)
 /*#include<stdio.h>
 int main(){
     int a=5;
@@ -292,14 +293,40 @@ int main(){
 return 0;
 }*/
 
+//  && and operator returns 0/1
+/*#include <stdio.h>
+int main() {
+  int x = 5;
+  int y = 3;
+  
+  // Returns 1 (true) because 5 is greater than 3 AND 5 is less than 10
+  printf("%d", x > 3 && x < 10);
+  return 0;
+}*/
 
+// || or operator returns 0/1
+/*#include <stdio.h>
+int main() {
+  int x = 5;
+  int y = 3;
+  
+  // Returns 1 (true) because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
+  printf("%d", x > 3 || x < 4);
+  return 0;
+}*/
 
+// ! not operator returns 0/1
+/*#include <stdio.h>
+int main() {
+  int x = 5;
+  int y = 3;
+  
+  // Returns false (0) because ! (not) is used to reverse the result
+  printf("%d", !(x > 3 && x < 10));
+  return 0;
+}*/
 
-
-
-
-
-
+// -----------------------------------------------------------------------------------------------------------------------------------
 
 
 
