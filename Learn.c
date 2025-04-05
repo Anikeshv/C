@@ -400,7 +400,30 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Switch statements
 
+// Best for expression results
+/*#include <stdio.h>
+int main(){
+    int a=2;
+    switch (a){
+        case 1:
+        printf("Hello");
+        break;
+
+        case 2:
+        printf("hi");
+        break;
+
+        case 3:
+        printf("h");
+        break;
+
+        default:
+        printf("Hellohih");
+
+    }
+}*/
 
 
 
