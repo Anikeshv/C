@@ -328,10 +328,17 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Boolean //
+/*#include <stdio.h>
+#include <stdbool.h>
+// Even boolean return 0/1
 
-
-
-
+int main(){
+    bool a=true;
+    bool b=false;
+    printf("%d",a!=b);
+return 0;
+}*/
 
 
 
