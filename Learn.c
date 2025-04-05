@@ -262,7 +262,7 @@ return 0;
 
 /*#include <stdio.h>
 int main(){
-    int const a=5;
+    const int a=5; //constant variables should be made by using uppercase letters its a practice
     printf("%d",a);
     //a=7; //Error
 return 0;
@@ -270,11 +270,14 @@ return 0;
 
 /*#include <stdio.h>
 int main(){
-    int const a;
+    const int a;
     a=7; //Error
     printf("%d",a);
 return 0;
 }*/
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
