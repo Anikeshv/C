@@ -1,13 +1,15 @@
-// My first c code
+// &My first c code& //
+
 /*#include <stdio.h>
 int main(){
     printf("Hey i am learning c");
     return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Written using escape sequence (\n)
+// Written using escape sequence (\n) //
 // \n used to move cursor to next line
 // \t used to Creates a horizontal tab
 // \" used to  Inserts a double quote character
@@ -36,9 +38,11 @@ int main(){
 return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Printed values in different datatypes
+// Printed values in different datatypes //
+
 /*#include <stdio.h>
 int main(){
     int integer;
@@ -56,7 +60,6 @@ int main(){
 return 0;
 }*/
 
-
 /*#include <stdio.h>
 int main() {
   int myNum = 15;
@@ -65,7 +68,6 @@ int main() {
 
   return 0;
 }*/
-
 
 /*#include <stdio.h>
 int main(){
@@ -81,7 +83,8 @@ return 0;
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// overwriting variable value
+// overwriting variable value //
+
 /*#include <stdio.h>
 int main(){
     int a;
@@ -95,8 +98,10 @@ int main(){
     return 0;
 }*/
 
+// -----------------------------------------------------------------------------------------------------------------------------------
 
-// Assigning values to multiple variables
+// Assigning values to multiple variables //
+
 /*#include <stdio.h>
 int main(){
     int a,b,c;
@@ -109,9 +114,10 @@ int main(){
 return 0;    
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Basic logic building codes
+// Basic logic building codes //
 
 // WAP to calculate area of a circle
 /*#include <stdio.h>
@@ -134,8 +140,7 @@ int main(){
 return 0;
 }*/
 
-
-// WAP to calculate the simple interest/
+// WAP to calculate the simple interest
 /*#include <stdio.h>
 int main(){
     float p;
@@ -151,7 +156,6 @@ int main(){
 return 0;
 }*/
 
-
 // WAP to calculate temperature in centigrate if user input temperature in Fahrenheit.
 /*#include <stdio.h>
 int main(){
@@ -161,7 +165,6 @@ int main(){
     printf("Temperature in degree centigrate is: %f",(5*f/9-17.77));
 return 0;
 }*/
-
 
 // WAP to take input in five different subjects and calculate Total,Average,Percentage.
 /*#include <stdio.h>
@@ -175,9 +178,10 @@ int main(){
 return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Decimal precision
+// Decimal precision //
 /*#include <stdio.h>
 int main(){
     float a=5.8594; //can take upto 4 bytes :8 decimal places
@@ -190,9 +194,11 @@ int main(){
 return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Size of datatypes
+// Size of datatypes //
+
 /*#include <stdio.h>
 int main(){
     int a;
@@ -206,9 +212,11 @@ int main(){
 return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Real life usecase
+// Real life usecase //
+
 /*#include <stdio.h>
 
 int main() {
@@ -226,9 +234,10 @@ int main() {
   return 0;
 }*/
 
+
 // -----------------------------------------------------------------------------------------------------------------------------------
 
-// Implicit and explicit conversion
+// Implicit and explicit conversion //
 
 /*#include <stdio.h>
 int main(){
@@ -247,6 +256,7 @@ int main(){
 return 0;
 }*/
 
+// -----------------------------------------------------------------------------------------------------------------------------------
 
 
 
