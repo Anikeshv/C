@@ -258,5 +258,37 @@ return 0;
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Comstant variables //
+
+/*#include <stdio.h>
+int main(){
+    int const a=5;
+    printf("%d",a);
+    //a=7; //Error
+return 0;
+}*/
+
+/*#include <stdio.h>
+int main(){
+    int const a;
+    a=7; //Error
+    printf("%d",a);
+return 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
