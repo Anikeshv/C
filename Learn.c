@@ -278,6 +278,20 @@ return 0;
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Operators //
+
+/*#include<stdio.h>
+int main(){
+    int a=5;
+    int b;
+    b=++a; //doing ++a wil increase  value of a by 1 , same goes for --a  a will decrease by 1
+    printf("%d\n",a); //6
+    // a=a+6;
+    // printf("%d\n",a); //6
+    printf("%d",b);
+return 0;
+}*/
+
 
 
 
