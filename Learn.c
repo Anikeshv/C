@@ -369,6 +369,47 @@ int main() {
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Short hand if //
+
+/*#include <stdio.h>
+int main(){
+    int a=20;
+    (a>55)? printf("Yes") : printf("No");
+return 0;
+}*/
+
+// instead of writing
+/*#include <stdio.h>
+int main() {
+  int time = 20;
+  if (time < 18) {
+    printf("Good day.");
+  } else {
+    printf("Good evening.");
+  }
+  return 0;
+}*/
+
+// You can write
+/*#include <stdio.h>
+int main() {
+  int time = 20;
+  (time < 18) ? printf("Good day.") : printf("Good evening.");
+  return 0;
+}*/
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
