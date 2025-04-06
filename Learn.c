@@ -501,4 +501,76 @@ int main(){
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// break and continue 
+
+// for loop break
+/*#include <stdio.h>
+int main(){
+  int i;
+  for (i=0; i<5; i++){
+    if (i==2){
+      break;
+    }
+    printf("%d\n",i);
+  }
+return 0;
+}*/
+
+// for loop cotinue
+/*#include <stdio.h>
+int main(){
+  int i;
+  for (i=0; i<5; i++){
+    if (i==2){
+      continue;
+    }
+    printf("%d\n",i);
+  }
+return 0;
+}*/
+
+// while loop break
+/*#include <stdio.h>
+int main(){
+  int i=0;
+  while (i<5){
+    if (i==2){
+      break;
+    }
+    printf("%d\n",i);
+    i++;
+  }
+return 0;
+}*/
+
+// while loop continue
+/*#include <stdio.h>
+int main(){
+  int i=0;
+  while (i<5){
+    if (i==2){
+      i++;
+      continue;
+    }
+    printf("%d\n",i);
+    i++;
+  }
+return 0;
+}*/
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
