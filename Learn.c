@@ -560,9 +560,40 @@ return 0;
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
+// Array 
 
+/*#include <stdio.h>
+int main(){
+  int l[]={1,2,3,4,5,6,7,8};
+  int i;
+  for (i=0; i<8; i++){
+    printf("%d\n",l[i]);
+  }
+return 0;
+}*/
 
+/*#include <stdio.h>
+int main(){
+  char l[]={'a','b','c','d','e','f','g','h','i'};
+  int i;
+  for (i=0; i<9; i++){
+    printf("%d\n",l[i]);
+  }
+return 0;
+}*/
 
+/*#include <stdio.h>
+int main(){
+  int l[5];
+  // l[1]=1;
+  // l[2]=2;
+  // l[3]=3;
+  // l[4]=4;
+  int i;
+  for (i=0; i<5; i++){
+    printf("%d\n",l[i]);
+  }
+}*/
 
 
 
