@@ -607,7 +607,23 @@ return 0;
 }*/
 
 
-
+/*#include <stdio.h>
+int main(){
+  int i,n,length;
+  printf("Enter the number of data enteries: ");
+  scanf("%d",&length);
+  int arr[length];
+  for (i=0; i<length; i++){
+    printf("Enter the marks: ");
+    scanf("%d",&n);
+    arr[i]=n;
+  }
+  printf("Marks of students are:");
+  for (i=0; i<length; i++){
+    printf("%d\n",arr[i]);
+  }
+return 0;
+}*/
 
 
 
