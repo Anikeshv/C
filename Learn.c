@@ -594,6 +594,19 @@ int main(){
   }
 }*/
 
+// Size of array
+/*#include <stdio.h>
+int main(){
+  int arr[]={1,2,3,4,5,5};
+  int length=sizeof(arr)/sizeof(arr[0]);
+  int i;
+  for (i=0; i<length; i++){
+    printf("%d\n",arr[i]);
+  }
+return 0;
+}*/
+
+
 
 
 
