@@ -268,7 +268,7 @@ int main(){
 return 0;
 }*/
 
-/*#include <stdio.h>
+/*#include <stdio.h
 int main(){
     const int a;
     a=7; //Error
@@ -354,7 +354,7 @@ return 0;
 }*/
 
 // else if //
-/*#include <stdio.h>
+/*#include <stdio.h
 int main() {
   int time = 22;
   if (time < 10) {
@@ -379,7 +379,7 @@ return 0;
 }*/
 
 // instead of writing
-/*#include <stdio.h>
+/*#include <stdio.h
 int main() {
   int time = 20;
   if (time < 18) {
@@ -391,7 +391,7 @@ int main() {
 }*/
 
 // You can write
-/*#include <stdio.h>
+/*#include <stdio.h
 int main() {
   int time = 20;
   (time < 18) ? printf("Good day.") : printf("Good evening.");
@@ -452,7 +452,7 @@ return 0;
 // -----------------------------------------------------------------------------------------------------------------------------------
 
 // While usecase
-/*#include <stdio.h>
+/*#include <stdio.h
 int main() {
   // A variable with some specific numbers
   int numbers = 12345;
@@ -625,11 +625,30 @@ int main(){
 return 0;
 }*/
 
+// 2D array
+
+/*#include <stdio.h>
+int main() {
+    int arr[3][3];
+    int i, j;
+
+    // Assign values to the array
+    for (i = 0; i < 3; i++) {
+        for (j = 0; j < 3; j++) {
+            arr[i][j] = j;
+        }
+    }
+
+    // Print the array elements
+    for (i = 0; i < 3; i++) {
+        for (j = 0; j < 3; j++) {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}*/
 
 
-
-
-
-
-
-
+// -------------------------------------------------------------------------------------------------------------------------------------------
