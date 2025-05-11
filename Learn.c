@@ -679,10 +679,45 @@ int main(){
 return 0;
 }*/
 
+/*#include <stdio.h>
+#include <string.h>
+ 
+int main() {
+  char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("Length is: %d\n", strlen(alphabet));
+  printf("Size is: %d\n", sizeof(alphabet));
+
+  char alpha[50] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("Length is: %d\n", strlen(alpha));
+  printf("Size is: %d\n", sizeof(alpha));
+  return 0;
+}*/
 
 
-
-
+/*#include <stdio.h>
+#include <string.h>
+ 
+int main() {
+  char str1[12] = "Hello";
+  char str2[] = "World!";
+  
+  printf("%d\n", sizeof(str1));
+  printf("%d\n", strlen(str1));
+  
+  
+  printf("%d\n", sizeof(str2));
+  printf("%d\n", strlen(str2));
+ 
+  // Concatenate str2 to str1 (the result is stored in str1)
+  strcat(str1, str2);
+  
+  // Print str1
+  printf("%s\n", str1);
+  printf("%d\n", sizeof(str1));
+  printf("%d\n", sizeof(str2));
+ 
+  return 0;
+}*/
 
 
 
