@@ -652,3 +652,47 @@ int main() {
 
 
 // -------------------------------------------------------------------------------------------------------------------------------------------
+
+// Strings
+
+/*#include <stdio.h>
+int main(){
+  char str[]="Hello world";
+  printf("%s\n",str);
+
+return 0;
+}*/
+
+/*#include <stdio.h>
+int main(){
+  char str[]={'H','e','l','l','o','\0'};
+  printf("%s\n",str);
+  printf("%c\n", str[0]);
+
+  str[0] = 'J';
+  printf("%s\n", str);
+
+  int length = sizeof(str) / sizeof(str[0]);
+  printf("%d",length);
+
+return 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
