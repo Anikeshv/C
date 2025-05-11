@@ -758,8 +758,43 @@ int main() {
 }*/
 
 
+// Input string
+/*#include <stdio.h>
+
+int main() {
+  // Create a string
+  char firstName[30];
+
+  // Ask the user to input some text (name)
+  printf("Enter your first name and press enter: \n");
+
+  // Get and save the text
+  scanf("%s", firstName);
+
+  // Output the text
+  printf("Hello %s", firstName);
+  
+  return 0;
+}*/
 
 
+/*#include <stdio.h>
+
+int main() {
+  // Create a string
+  char fullName[30];
+
+  // Ask the user to input some text (full name)
+  printf("Type your full name and press enter: \n");
+
+  // Get the text
+  fgets(fullName, sizeof(fullName), stdin);
+
+  // Output the text
+  printf("Hello %s", fullName);
+  
+  return 0;
+}*/
 
 
 
