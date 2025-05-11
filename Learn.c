@@ -693,7 +693,7 @@ int main() {
   return 0;
 }*/
 
-
+// Length of string
 /*#include <stdio.h>
 #include <string.h>
  
@@ -719,7 +719,25 @@ int main() {
   return 0;
 }*/
 
+// String copy
+/*#include <stdio.h>
+#include <string.h>
 
+int main() {
+  char str1[20] = "Hello World!";
+  char str2[20];
+
+  // Copy str1 to str2
+  strcpy(str2, str1);
+  
+  str2[0]='B';
+
+  // Print str2
+  printf("%s", str2);
+  printf("%s", str1);
+  
+  return 0;
+}*/
 
 
 
