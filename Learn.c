@@ -673,7 +673,8 @@ int main(){
   printf("%s\n", str);
 
   int length = sizeof(str) / sizeof(str[0]);
-  printf("%d",length);
+  printf("%d\n",length);
+  printf("%lu\n", sizeof(str));
 
 return 0;
 }*/
