@@ -920,6 +920,33 @@ int main() {
 
 
 
+/*#include <stdio.h>
+
+void myFunction(char name[], int age) {
+  printf("Hello %s. You are %d years old\n", name, age);
+}
+
+int main() {
+  myFunction("Liam", 3);
+  myFunction("Jenny", 14);
+  myFunction("Anja", 30);
+  return 0;
+}*/
+
+/*#include <stdio.h>
+
+void calculateSum(int x, int y) {
+  int sum = x + y;
+  printf("The sum of %d + %d is: %d\n", x, y, sum);
+}
+
+int main() {
+  calculateSum(5, 3);
+  calculateSum(8, 2);
+  calculateSum(15, 15);
+  return 0;
+}*/
+
 
 
 
