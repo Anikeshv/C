@@ -1072,6 +1072,25 @@ int main() {
   return 0;
 }*/
 
+// Writing to a file
+
+#include <stdio.h>
+
+int main() {
+  FILE *fptr;
+
+  // Open a file in writing mode
+  fptr = fopen("cfile_handling.txt", "w");
+
+  // Write some text to the file
+  fprintf(fptr, "Some text\n");
+  fprintf(fptr, "Hello World!");
+
+  // Close the file
+  fclose(fptr);
+
+  return 0;
+}
 
 
 
