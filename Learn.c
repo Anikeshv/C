@@ -1056,6 +1056,21 @@ int main() {
 
 // -------------------------------------------------------------------------------------------------------------------------
 
+// File handling
+
+/*#include <stdio.h>
+
+int main() {
+  FILE *fptr;
+
+  // Create a file on your computer (filename.txt)
+  fptr = fopen("cfile_handling.txt", "w");
+
+  // Close the file
+  fclose(fptr);
+
+  return 0;
+}*/
 
 
 
