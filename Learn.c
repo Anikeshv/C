@@ -1073,8 +1073,7 @@ int main() {
 }*/
 
 // Writing to a file
-
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
   FILE *fptr;
@@ -1090,7 +1089,25 @@ int main() {
   fclose(fptr);
 
   return 0;
-}
+}*/
+
+// Appending to a file
+/*#include <stdio.h>
+
+int main() {
+  FILE *fptr;
+
+  // Open a file in append mode
+  fptr = fopen("cfile_handling.txt", "a");
+
+  // Append some text to the file
+  fprintf(fptr, "\nHi everybody!");
+  
+  // Close the file
+  fclose(fptr);
+
+  return 0;
+}*/
 
 
 
